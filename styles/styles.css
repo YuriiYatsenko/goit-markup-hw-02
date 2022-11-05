@@ -1,6 +1,7 @@
 :root {
     --title-text-color: #757575;
     --accent-color: #2196F3;
+    --title-primery-fon: #F5F5F5;
 }
 
 body {
@@ -9,26 +10,25 @@ body {
     color: #212121;
 }
 
-/*
-.adres {
-    color: #FFFFFF;
-}
-*/
-
 .list_none {
     list-style: none;
 }
 
-/* header */
-
 .logo {
-    color: #000000;
+    text-decoration: none;
     font-family: 'Raleway', sans-serif;
+    color: #2196F3;
 }
 
-.web {
-    color: var(--accent-color);
+.header-logosudio {
+    color: #000000;
 }
+
+.foooter-logostudio {
+    color: #FFFFFF;
+}
+
+/* header */
 
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -76,4 +76,17 @@ button {
     top: 430px;
     left: 692px;
     border-radius: 4px;
+}
+
+section {
+    background-color: var(--title-primery-fon);
+}
+
+/* footer */
+
+footer {
+    background-color: #2F303A;
+}
+.adress {
+    color: #FFFFFF;
 }
