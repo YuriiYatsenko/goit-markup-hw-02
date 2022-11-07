@@ -9,15 +9,17 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color:var(--title-primery-fon);
     color: var(--primery-text-color);
+    letter-spacing: 0.03em;
 }
 
-body .link.current {
+.link.current {
     color: var(--accent-color);
 }
 
 .list-none {
     list-style: none;
 }
+
 
 /* logo */
 
@@ -71,6 +73,7 @@ header {
 
 .hero-title {
     color: #FFFFFF;
+    letter-spacing: 0.06em;
     text-align: center;
     vertical-align: Top;
     font-size: 44px;
@@ -81,6 +84,7 @@ header {
     cursor: pointer;
     color: var(--title-primery-fon);
     background-color: #2196F3;
+    letter-spacing: 0.06em;
     width: 216px;
     height: 50px;
     top: 430px;
@@ -111,6 +115,10 @@ section {
     color: var(--title-text-color);
     font-size: 16px;
     line-height: 1;
+}
+
+.section-komanda {
+    background-color: #F5F4FA;
 }
 
 
@@ -154,8 +162,11 @@ footer {
     border-radius: 4px;
 }
 
-.paragraf-footer {
+.section-paragraf {
     color: var(--title-text-color);
     font-size: 16px;
     line-height: 2;
+}
+.section-text {
+    letter-spacing: 0.06em;
 }
