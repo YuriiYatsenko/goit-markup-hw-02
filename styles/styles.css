@@ -3,6 +3,11 @@
     --title-text-color: #757575;
     --accent-color: #2196F3;
     --title-primary-fon: #F5F5F5;
+    --fon-komanda: #F5F4FA;
+    --fon-ffffff: #ffffff;
+    --fon-000000: #000000;
+    --background-color: #2F303A;
+    --button-color: #212121;
 }
 
 body {
@@ -33,17 +38,17 @@ body {
 }
 
 .header-logostudio {
-    color: #000000;
+    color: var(--fon-000000);
 }
 
 .foooter-logostudio {
-    color: #FFFFFF;
+    color: var(--fon-ffffff);
 }
 
 /* header */
 
 header {
-    background-color: #FFFFFF;
+    background-color: var(--fon-ffffff);
 }
 
 .site-nav .link:hover,
@@ -73,11 +78,11 @@ header {
 /* main */
 
 .hero {
-    background-color: #2F303A;
+    background-color: var(--background-color);
 }
 
 .hero-title {
-    color: #FFFFFF;
+    color: var(--fon-ffffff);
     letter-spacing: 0.06em;
     text-align: center;
     font-weight: 900;
@@ -88,7 +93,7 @@ header {
 .button-studio {
     cursor: pointer;
     color: var(--title-primary-fon);
-    background-color: #2196F3;
+    background-color: var(--accent-color);
     letter-spacing: 0.06em;
     font-weight: 700;
     font-size: 16px;
@@ -140,8 +145,8 @@ header {
     background-color: var(--title-primary-fon);
 }
 
-.section-komanda {
-    background-color: #F5F4FA;
+body .section-komanda {
+    background-color: var(--fon-komanda);
 }
 
 .komanda-zagolovok {
@@ -162,13 +167,13 @@ header {
 /* footer */
 
 footer {
-    background-color: #2F303A;
+    background-color: var(--background-color);
     width: 1600px;
     height: 252px;
 }
 
 .adress {
-    color: #FFFFFF;
+    color: var(--fon-ffffff);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
@@ -180,8 +185,8 @@ footer {
 
 .button {
     cursor: pointer;
-    color: #212121;
-    background-color: #F5F4FA;
+    color: var(--button-color);
+    background-color: var(--fon-komanda);
     width: 125px;
     height: 38px;
     font-weight: 500;
@@ -192,8 +197,8 @@ footer {
 .button:hover,
 .button:focus,
 .button:active {
-    color: #FFFFFF;
-    background-color: #2196F3;
+    color: var(--fon-ffffff);
+    background-color:var(--accent-color);
     width: 125px;
     height: 38px;
     font-weight: 500;
